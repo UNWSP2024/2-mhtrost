@@ -1,4 +1,6 @@
-
+# Micah Trost
+# 1/28/2026
+# Average Age.
 def average_age():
     # Get User Input
     age1 = float(input('what is your age?'))

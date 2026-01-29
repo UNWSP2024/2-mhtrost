@@ -8,10 +8,8 @@ def temp_conversion(celsius):
 
     # Calculate the Fahrenheit equivalent.
     fahrenheit = 0.0
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################    
-
+    celsius = float(input('What is the current temperature in Celsius? '))
+    fahrenheit = ((9/5) * celsius) + 32
 
     # Return the variable to the calling function
     return fahrenheit
